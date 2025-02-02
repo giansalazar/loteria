@@ -38,7 +38,7 @@ function Home() {
         if (!pausado) {
             id = setInterval(() => {
                 correrCartas();
-            }, 3000);
+            }, 4000);
 
             // Guardar el ID del intervalo para detenerlo más tarde
             setIntervaloId(id);
